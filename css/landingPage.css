@@ -67,5 +67,11 @@ nav {
 
 .modal-form .form-input {
     padding: 8px;
-    width: 
+    width: 100%;
 }
+
+.close-btn {
+    position: absolute;
+}
+
+

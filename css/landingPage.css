@@ -113,7 +113,65 @@ nav ul {
     margin: 0;
 }
 
-nav ul li {
-    padding: 20px;
+nav ul li:nth-of-type(1) {
     border-bottom: 2px solid rgba(200,200,200,.1);
 }
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 130%;
+    position: relative;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 30px 0;
+}
+
+button,
+input[type='submit'] {
+    background-color: var(--secondary-color);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+.toggle {
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    font-size: 20px;
+}
+
+.container {
+    padding: 15px;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    /* display: none; */
+}
+

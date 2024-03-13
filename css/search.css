@@ -112,7 +112,7 @@ body{
 }
 
 
-.button {
+.toggle {
     display: flex;
     justify-content: right;
 }

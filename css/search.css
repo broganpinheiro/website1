@@ -133,6 +133,7 @@ button {
 }
 
 
-nav {
-
+.button {
+    display: flex;
+    justify-content: right;
 }

@@ -71,4 +71,9 @@ body {
 .toggle {
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
 }

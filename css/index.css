@@ -3,10 +3,10 @@
 }
 
 body {
-    background-color: yellow;
+    background-color: white;
 }
 
-.website {
+.nav {
     position: fixed;
     background-color: #111;
     top: 0;
@@ -15,7 +15,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.website .container {
+.nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,36 +23,36 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.website ul {
+.nav ul {
     display: flex;
     list-style-type: none;
     align-items: center;
     justify-content: center;
 }
 
-.website a {
+.nav a {
     color: white;
     text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
 }
 
-.website.active {
+.nav.active {
     background-color: white;
     box-shadow: 0 2px 10 rgba(0,0,0,.3);
     transition: all 0.3s ease-in-out;
 }
 
-.website.active a {
+.nav.active a {
     color: black;
 }
 
-.website.active .container {
+.nav.active .container {
     padding: 10px 0;
 }
 
-.website a.current,
-.website a:hover {
+.nav a.current,
+.nav a:hover {
     color: rgb(192,57,43);
     font-weight: bold;
 }

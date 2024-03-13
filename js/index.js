@@ -1,6 +1,7 @@
 toggle = document.getElementById('toggle')
+container = document.querySelector('.inacitve')
 
 toggle.addEventListener('click', () => {
-    document.container.classList.toggle('inactive')
+    container.classList.toggle('inactive')
 })
 

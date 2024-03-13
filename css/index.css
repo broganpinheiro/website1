@@ -77,3 +77,8 @@ body {
 button {
     cursor: pointer;
 }
+
+.btn {
+    color: white;
+    text-decoration: none;
+}

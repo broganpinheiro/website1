@@ -15,6 +15,7 @@ body{
 .search {
     height: 50px;
     position: relative;
+    z-index: 1;
 }
 .search .btn{
     position: absolute;
@@ -130,10 +131,12 @@ button {
 .code {
     color: white;
     text-decoration: none;
+    position: relative;
 }
 
 
 .button {
     display: flex;
     justify-content: right;
+    position: relative;
 }

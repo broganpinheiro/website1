@@ -57,7 +57,7 @@ body {
     font-weight: bold;
 }
 
-.website div.container.inactive {
+.website div.ccontainer.inactive {
     transition: all 0.3s ease-in-out;
     display: none;
 }

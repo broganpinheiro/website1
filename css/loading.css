@@ -12,6 +12,7 @@ body {
     margin: auto;
     align-items: center;
     justify-content: center;
+    position: relative;
     font-size: 50px;
     color: white;
     opacity: 1;

@@ -21,7 +21,7 @@ body.show-nav {
     transform: translateX(200px);
 }
 
-nav {
+.nav {
     background-color: var(--primary-color);
     position: fixed;
     top: 0;
@@ -257,17 +257,16 @@ input[type='submit'] {
 
 
 .button {
-    display: flex;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    left: 92.5%;
     justify-content: right;
 }
 
 .toggle {
     background-color: black;
     color: white;
-    cursor: pointer;
-}
-
-button {
     cursor: pointer;
 }
 

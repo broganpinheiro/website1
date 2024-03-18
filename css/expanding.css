@@ -123,8 +123,8 @@ body {
 
 
 .button {
-    display: flex;
     justify-content: right;
+    position: relative;
 }
 
 .toggle {

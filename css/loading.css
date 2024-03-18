@@ -92,6 +92,7 @@ body {
 
 .button {
     justify-content: right;
+    padding: 90px 0;
 }
 
 .toggle {

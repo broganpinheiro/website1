@@ -1,5 +1,8 @@
 loadText = document.querySelector('.loading-text')
 bg = document.querySelector('.bg')
+code = document.getElementById('toggle')
+container = document.querySelector('.ccontainer')
+button = document.querySelector('.fa-solid')
 
 load = 0
 
@@ -19,9 +22,7 @@ function blurring()  {
 
 
 
-code = document.getElementById('toggle')
-container = document.querySelector('.ccontainer')
-button = document.querySelector('.fa-solid')
+
 
 code.addEventListener('click', () => {
     container.classList.toggle('inactive')

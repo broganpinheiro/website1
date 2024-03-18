@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: ;
+    background-color: blue;
+    margin: 0
 }
 
 .website {
@@ -64,7 +65,10 @@ body {
 
 
 .button {
-    display: flex;
+    position: relative;
+    left: 95%;
+    right: 0;
+    top: 5px;
     justify-content: right;
 }
 

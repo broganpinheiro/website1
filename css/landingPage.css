@@ -257,8 +257,8 @@ input[type='submit'] {
 
 
 .mycode {
-    position: relative;
-    top: 60px;
+    position: fixed;
+    top: 90px;
     right: 0;
     left: 92.5%;
     justify-content: right;

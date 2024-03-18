@@ -39,7 +39,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.website .container {
+.website .ccontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +71,7 @@ body {
     color: black;
 }
 
-.website.active .container {
+.website.active .ccontainer {
     padding: 10px 0;
 }
 
@@ -81,7 +81,7 @@ body {
     font-weight: bold;
 }
 
-.website div.container.inactive {
+.website div.ccontainer.inactive {
     transition: all 0.3s ease-in-out;
     display: none;
 }

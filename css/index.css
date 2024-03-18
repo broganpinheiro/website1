@@ -7,6 +7,16 @@ body {
     margin: 0
 }
 
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.width {
+    max-width: 50%;
+}
+
 .website {
     position: fixed;
     background-color: #111;
@@ -66,7 +76,6 @@ body {
 
 .button {
     position: relative;
-    left: 95%;
     right: 0;
     top: 5px;
     justify-content: right;

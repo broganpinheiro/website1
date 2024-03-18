@@ -256,8 +256,8 @@ input[type='submit'] {
 }
 
 
-.button {
-    position: fixed;
+.mycode {
+    position: relative;
     top: 60px;
     right: 0;
     left: 92.5%;
